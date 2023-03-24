@@ -35,6 +35,8 @@ public class Equipo {
     public void setDescripcion(String descripcion) {
         this.descripcion=descripcion;
     } 
+    
+    //toString
     @Override
     public String toString() {
         return "Equipo [nombre=" + nombre + ", descripcion=" + descripcion +  "]";
